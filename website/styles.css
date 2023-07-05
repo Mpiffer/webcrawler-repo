@@ -1,0 +1,43 @@
+@import 'tailwind.css';
+
+body {
+    background-color: #1a202c;
+    color: #a0aec0;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+.main-content {
+    margin-top: 2rem;
+}
+
+.data-card {
+    background-color: #2d3748;
+    padding: 1rem;
+    border-radius: 0.25rem;
+    margin-bottom: 1rem;
+}
+
+.data-card h2 {
+    color: #f7fafc;
+    margin-bottom: 0.5rem;
+}
+
+.data-card p {
+    color: #a0aec0;
+}
